@@ -4,6 +4,9 @@ source 'https://rubygems.org'
 
 gem "middleman", "~>4.1.0"
 
+# Deploy to production
+gem 'middleman-deploy', '~> 1.0'
+
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 

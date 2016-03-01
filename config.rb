@@ -57,6 +57,14 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+activate :deploy do |deploy|
+  deploy.deploy_method = :sftp
+  deploy.host = "carloop.io"
+  deploy.path = "/var/website"
+  deploy.user = "root"
+
+  deploy.build_before = true
+end
 
 # Build-specific configuration
 configure :build do
