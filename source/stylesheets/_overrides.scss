@@ -15,6 +15,17 @@ body
 
 .page .page-block .block-inner { background-color: transparent; }
 
+a.link {
+color: blue;
+text-decoration: none;
+}
+
+a:hover {
+color: blue;
+text-decoration: none;
+border-bottom: 1px solid blue;
+}
+
 #element-1  
 {
   height: 394px;
