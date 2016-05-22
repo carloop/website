@@ -1108,3 +1108,18 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
     width: 960px;
   }
 }
+
+.buy-button {
+  position: absolute;
+  top: 1050px;
+  left: 360px;
+  box-sizing: content-box;
+  font-size: 18px;
+  background-color: #0066cc;
+  color: #fff;
+  border-radius: 5px;
+  @media (max-width: 700px) {
+    left: 70px;
+    top: 892px;
+  }
+}
